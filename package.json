@@ -1,12 +1,19 @@
 {
   "name": "3raentrega",
   "version": "1.0.0",
-  "description": "",
+  "description": "Catálogo de venta de alimentos",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss/style.scss css/styles.css"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Burguersito",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "frameworks": {
+    "Bootstrap": "v5.2.3"
+  }
 }
