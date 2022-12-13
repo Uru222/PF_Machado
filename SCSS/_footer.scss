@@ -1,0 +1,26 @@
+.ordenarfooter {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  background-color: rgb(248, 170, 26);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+.nuestrasredes {
+  height: fit-content;
+}
+
+.footer__img {
+  width: 2rem;
+}
+
+.creadopor {
+  @include crear-flexbox;
+}

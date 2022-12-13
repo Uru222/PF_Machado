@@ -1,0 +1,60 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.h1login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.login__section {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1rem 0rem 3rem 0rem;
+  max-width: 80%;
+  height: 50%;
+  padding: 20px;
+  background-color: rgba(97, 146, 187, 0.4);
+  padding-bottom: 1rem;
+}
+.contrasena__olvidada {
+  display: flex;
+  width: fit-content;
+  margin-top: 1rem;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
+.psw {
+  text-decoration: underline;
+  color: blue;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
